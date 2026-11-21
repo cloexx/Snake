@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Torneos</h1>
+        <a href="index.html"> <img src="imagenes/images.jpg" alt="serpiente pixeleada" style="width: 100px;"></a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="como-jugar.html">¿Cómo jugar?</a>
+                </li>
+                <li>
+                    <a href="records.html">Records</a>
+                </li>
+                <li>
+                    <a href="torneo.html">torneos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Datos del jugador</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required placeholder="Leito">
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" required name="correo" id="correo" placeholder="leito@gmail.com">
+
+                <label for="fecha-de-nacimiento">Ingrese su fecha de nacimiento</label>
+                <input type="date" required name="fecha-de-nacimiento" id="fecha-de-nacimiento">
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Modalidad</legend>
+                <input type="radio" name="modalidad" id="individual" value="individual">
+                <label for="individual">Individual</label>
+                <input type="radio" name="modalidad" id="equipo" value="equipo">
+                <label for="equipo">Equipo</label>
+            </fieldset>
+            <fieldset>
+                <legend>Horarios y país</legend>
+
+                <input type="checkbox" name="horarios" id="mañana" value="mañana">
+                <label for="mañana">7am-10am</label>
+
+                <input type="checkbox" name="horarios" id="tarde" value="tarde">
+                <label for="tarde">2pm-5pm</label>
+                <input type="checkbox" name="horarios" id="noche" value="noche">
+                <label for="noche">7pm-10pm</label>
+
+                <label for="pais">País</label>
+                <select name="pais" id="pais">
+                    <option value="">Seleccione el pais</option>
+                    <option value="peru">Perú</option>
+                    <option value="bolivia">Bolivia</option>
+                </select>
+
+
+
+            </fieldset>
+            <label for="numero">Número de celular</label>
+            <input type="tel" name="numero" id="numero" maxlength="9" required pattern="[0-9]{9}">
+            <label for="comentario">Agregar un comentario</label>
+            <textarea name="comentario" id="comentario" placeholder="comentario.."></textarea>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+
+    </main>
+    <footer>
+        <address>
+            Aquí podras encontrar mi <a href="https://github.com/cloexx?tab=repositories">github</a>
+        </address>
+        <p>Derechos reservados Leo 2026</p>
+    </footer>
+
+</body>
+
+</html>
