@@ -1,8 +1,14 @@
 body {
-    background-color: purple;
+    background-color: #000000;
+    color: white;
 }
 
 #logo {
 
     width: 200px;
+}
+
+header {
+background-color: #a39696;
+text-align: center;
 }
