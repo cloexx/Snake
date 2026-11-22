@@ -12,3 +12,8 @@ header {
 background-color: #a39696;
 text-align: center;
 }
+nav a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
