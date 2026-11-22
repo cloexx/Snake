@@ -1,29 +1,36 @@
+/*
+color del fondo del body negro y del texto blanco.
+*/
 body {
     background-color: #000000;
     color: white;
 }
 
+/*Imagen con 200 pixeles */
 #logo {
 
     width: 200px;
-}
 
+}
+/*header con color de fondo plomo y texto centrado*/
 header {
 background-color: #a39696;
 text-align: center;
 }
+/*Links sin subrrayado, color blanco y en negrita*/
 nav a {
     text-decoration: none;
     color:white;
     font-weight: bold;
 }
+/*h1 y h2 en color plomo*/
 h1,h2 {
 
     color: #a39696;
     
     
 }
-
+/*Clase destacado con texto centrado y de color aqua*/
 .destacado {
    text-align: center;
    color: aqua;
